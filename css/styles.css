@@ -650,7 +650,7 @@ flex-direction: column;
     transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.close-btn:hover .close, .close-btn:focus .close {
+.close-btn:hover .icon-close, .close-btn:focus .icon-close {
     fill: #fff;
 }
 
@@ -768,6 +768,7 @@ fill: #4D5AE5;
     background-color: transparent;
     fill: transparent;
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cubic-bezier(0.4, 0, 0.2, 1), fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+margin-right: 8px;
 }
 
 
@@ -787,13 +788,14 @@ fill: #f4f4fd;
         line-height: 1.17;
         letter-spacing: 0.04em;
         color: #8e8f99;
-        gap: 8px;
-            margin-bottom: 0;
+         margin-bottom: 0;
             position: relative;
 }
 
 
 .accept {
+    display: inline-flex;
+    margin-left: 4px;
     color: #4d5ae5;
     line-height: 1.33;
         text-decoration: underline;
